@@ -1,0 +1,8 @@
+name: Java Tests
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    uses: Angelina-TechLead/sprint_6-solution/.github/workflows/api-tests.yml@ci
